@@ -1,0 +1,161 @@
+div.container-messanger-center {
+	padding: 20px 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+div.container-messanger-center div.container-messanger-vertical {
+	padding: 0;
+	margin: 0;
+	width: 500px;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data {
+	padding: 0;
+	margin: 0;
+	background: var(--color-container-data-background);
+	border: 1px solid var(--color-container-data-border);
+	border-radius: 20px;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	width: -webkit-fill-available;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder h5 {
+	width: -webkit-fill-available;
+	font-family: system-ui;
+	font-weight: 600;
+	font-size: 16px;
+	padding: 15px 20px;
+	margin: 0;
+	position: relative;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder h5.back {
+	display: flex;
+	align-items: center;
+	padding-left: 35px;
+	cursor: pointer;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder h5.back::after {
+	content: "";
+	padding: 3px;
+	border-left: solid;
+	border-bottom: solid;
+	border-width: 2px;
+	border-color: var(--color-html-text);
+	position: absolute;
+	transform: rotate(45deg);
+	left: 20px;
+	margin-top: 3px;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder h4 {
+	--size-avatar-chat: 40px;
+	padding: 0;
+	margin: 0 5px 0 0;
+	width: var(--size-avatar-chat);
+	max-width: var(--size-avatar-chat);
+	min-width: var(--size-avatar-chat);
+	height: var(--size-avatar-chat);
+	max-height: var(--size-avatar-chat);
+	min-height: var(--size-avatar-chat);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+	font-family: monospace;
+	font-size: 18px;
+	background: var(--color-img-default-background);
+	border-radius: 40px;
+	color: var(--color-html-text-sub);
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder div.small-menu {
+	display: flex;
+	align-items: center;
+	cursor: default;
+	user-select: none;
+	margin: 0 5px;
+	position: relative;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder div.small-menu span {
+	color: var(--color-html-text-sub);
+	cursor: pointer;
+	padding: 7px;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder div.small-menu span:hover {
+	color: var(--color-html-text);
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div.container-bar-messanger-holder div.small-menu ol {
+	top: 40px;
+	right: -5px;
+	width: 200px;
+}
+
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data h3.message-comment {
+	width: -webkit-fill-available;
+	text-align: center;
+	font-family: system-ui;
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--color-html-text);
+	padding: 50px 0;
+	margin: 0;
+}
+
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll {
+	padding: 0;
+	margin: 0;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll a {
+	text-decoration: none;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll div.chat-item {
+	padding: 15px 15px;
+	margin: 0;
+	display: flex;
+	cursor: pointer;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll div.chat-item div.c1 {
+	padding: 0;
+	margin: 0;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll div.chat-item div.c1 h3 {
+	--size-avatar-item-chat: 50px;
+	padding: 0;
+	margin: 0;
+	width: var(--size-avatar-item-chat);
+	max-width: var(--size-avatar-item-chat);
+	min-width: var(--size-avatar-item-chat);
+	height: var(--size-avatar-item-chat);
+	min-height: var(--size-avatar-item-chat);
+	max-height: var(--size-avatar-item-chat);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--color-img-default-background);
+	border-radius: 50px;
+	font-family: system-ui;
+	color: var(--color-html-text-sub);
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll div.chat-item div.c2 {
+	padding: 0;
+	margin: 4px 0 0 15px;
+	width: -webkit-fill-available;
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll div.chat-item div.c2 h3 {
+	padding: 0;
+	margin: 0;
+	font-family: system-ui;
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--color-html-text);
+}
+div.container-messanger-center div.container-messanger-vertical div#container-messanger-data div#chats-content div.qak-messanger-chats-scroll div.chat-item div.c2 h4 {
+	padding: 0;
+	margin: 0;
+	font-family: system-ui;
+	font-weight: 400;
+	font-size: 12px;
+	color: var(--color-html-text-sub);
+}

@@ -1,0 +1,22 @@
+h2.qak-index-message {
+	padding: 0;
+	margin: 20px;
+	margin-bottom: 10px;
+	color: var(--color-html-text);
+	opacity: .5;
+	font-weight: 500;
+	font-size: 14px;
+	font-family: system-ui;
+}
+
+div#container-data-index {
+	margin-top: 20px;
+}
+
+center.home-sticky {
+	position: sticky;
+	top: 0px;
+	z-index: 10;
+	padding: 20px 0;
+	background: linear-gradient(180deg, var(--color-html-background), transparent);
+}
