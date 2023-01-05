@@ -2210,20 +2210,22 @@ div.container-select-rec-list ul {
 	transition: max-height .3s;
 }
 div.container-select-rec-list ul li {
-	padding: 5px 10px;
+	padding: 8px 10px;
 	margin: 4px 2px;
 	display: inline-block;
-	border: 1px solid var(--color-container-data-border);
-	border-radius: 100px;
+	border: 1px solid transparent;
+	border-radius: 12px;
 	font-weight: 500;
-	font-size: 11px;
+	font-size: 14px;
 	font-family: system-ui;
 	cursor: pointer;
 	color: var(--color-html-text-sub);
 }
 div.container-select-rec-list ul li.selected {
-	color: var(--color-html-accent);
-	border-color: var(--color-html-accent);
+	color: var(--color-html-text);
+	border-color: var(--color-container-border);
+	background: var(--color-bar-background);
+	box-shadow: 0 2px 10px var(--color-container-data-border);
 }
 div.container-select-rec-list div.btm-container {
 	display: flex;

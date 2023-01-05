@@ -22,14 +22,14 @@
 	<div class="qak-bar-menu-content">
 		<script type="text/javascript" src="/assets/js/edit/avatar.js"></script>
 		<?php if (isMobile() == false) { ?>
-			<!-- <div class="qak-bar-menu-content-item" onclick="window.location = '/messanger.php'" data-tooltip="<?php echo str_replace('%1s', $result_user_bar['user_dialog_no_read'], $string['tooltip_bar_messages']); ?>">
+			<div class="qak-bar-menu-content-item" onclick="window.location = '/dialog.php'" data-tooltip="<?php echo str_replace('%1s', $result_user_bar['user_dialog_no_read'], $string['tooltip_bar_messages']); ?>">
 				<img src="/assets/icons/icons8-secured-letter-30.png" class="qak-bar-menu-content-item">
 				<span class="material-symbols-rounded">chat</span>
 				<h1 class="qak-bar-menu-content-name"><?php echo $string['action_bar_messanger']; ?></h1>
 				<?php if ($result_user_bar['user_dialog_no_read'] > 0) {  ?>
 					<h2 class="qak-bar-menu-content-item v2"><?php echo getNumNotify($result_user_bar['user_dialog_no_read']); ?></h2>
 				<?php } ?>
-			</div> -->
+			</div>
 			<div class="qak-bar-menu-content-item" id="bar-r-c" onclick="openBarTopAlert('followed_wait_toyou', '#bar-r-c')" data-tooltip="<?php echo str_replace('%1s', $result_user_bar['user_followed_toyou_wait'], $string['tooltip_bar_requests']); ?>">
 				<!-- <img src="/assets/icons/icons8-followed_wait_toyou-30.png" class="qak-bar-menu-content-item"> -->
 				<span class="material-symbols-rounded">person</span>
@@ -100,13 +100,13 @@
 					<bouble id="qak-bar-top-notification-indicator"><?php echo getNumNotify($result_user_bar['user_followed_toyou_wait']); ?></bouble>
 				<?php } ?>
 			</div>
-			<!-- <div class="bitem" onclick="window.location = '/m.php'">
+			<div class="bitem" onclick="window.location = '/dialog.php'">
 				<img src="/assets/icons/bar/messages.png">
 				<span class="material-symbols-outlined">forum</span>
 				<?php if ($result_user_bar['user_dialog_no_read'] > 0) { ?>
 					<bouble id="qak-bar-top-notification-indicator"><?php echo getNumNotify($result_user_bar['user_dialog_no_read']); ?></bouble>
 				<?php } ?>
-			</div> -->
+			</div>
 			<div class="bitem" onclick="openPageFullScreen('notifications')">
 				<!-- <img src="/assets/icons/bar/notifications.png"> -->
 				<span class="material-symbols-outlined">notifications</span>
